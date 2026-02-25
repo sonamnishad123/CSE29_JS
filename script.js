@@ -1,31 +1,20 @@
-console.log("hello world");
-document.write("hello world");
+let a=10; let b=20; var c=10; var linebreak="<br>";
+document.write("a+b+c=");
+let result=a+b+c;
+document.write(result); 
+document.write(linebreak);
 
-var num=10;
-console.log(num);
-console.log(typeof(num));
-num=false;
-console.log(num);
-console.log(typeof(num));
-num="Hello";
-console.log(num);
-console.log(typeof(num));
-num=null;
-console.log(num);
-console.log(typeof(num));
+document.write("a-b=");
+result=a-b;
+document.write(result);
+document.write(linebreak);
 
-let x;
-console.log(x);
-console.log(typeof(x));
+document.write("a/b=");
+result=a/b;
+document.write(result);
+document.write(linebreak);
 
-// symbol type
-const sym1=Symbol(4)
-console.log(sym1);
-const sym2=Symbol(4)
-console.log(sym2);
-if(sym1==sym2){
-    console.log("true");
-}
-else{
-    console.log("false");
-}
+document.write("a%b=");
+result=a%b;
+document.write(result);
+document.write(linebreak);
