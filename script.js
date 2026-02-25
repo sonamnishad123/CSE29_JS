@@ -1,46 +1,28 @@
+let x=10; y=20; let linebreak="<br>";
 
-// document.write("a+b+c=");
-// let result=a+b+c;
-// document.write(result); 
-// document.write(linebreak);
-
-// document.write("a-b=");
-// result=a-b;
-// document.write(result);
-// document.write(linebreak);
-
-// document.write("a/b=");
-// result=a/b;
-// document.write(result);
-// document.write(linebreak);
-
-// document.write("a%b=");
-// result=a%b;
-// document.write(result);
-// document.write(linebreak);
-let a=10; let b=20; var linebreak="<br>";
-document.write("(a==b)=>");
-result=(a==b);
+document.write("Value of x=>(x=y)=>");
+let result=(x=y);
 document.write(result);
 document.write(linebreak);
 
-document.write("(a>b)=>");
-result=(a>b);
+document.write("Value of x=>(x+=y)=>");
+result=(x+=y);
 document.write(result);
 document.write(linebreak);
 
-document.write("(a>=b)=>");
-result=(a>=b);
+document.write("Value of x=>(x-=y)=>");
+result=(x-=y);
 document.write(result);
 document.write(linebreak);
 
-document.write("(a<=b)=>");
-result=(a<=b);
+document.write("Value of x=>(x*=y)=>");
+ result=(x*=y);
 document.write(result);
 document.write(linebreak);
 
-document.write("(a!=b)=>");
-result=(a!=b);
+document.write("Value of x=>(x/=y)=>");
+ result=(x/=y);
 document.write(result);
 document.write(linebreak);
+
 
